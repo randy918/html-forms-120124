@@ -28,5 +28,8 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "00A69C",
-    "liveServer.settings.port": 5506
+    "liveServer.settings.port": 5507,
+    "cSpell.words": [
+        "ashutterstock"
+    ]
 }
