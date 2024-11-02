@@ -1,0 +1,49 @@
+//>  ████████████████████████████████████  INPUT
+
+.input {
+  display: block;
+  width: 70vw;
+  height: 12vw;
+  border-radius: 1vw;
+  border: transparent;
+
+  margin: 0 auto;
+  margin-bottom: 4vw;
+
+font-size: 5vw;
+}
+
+.button {
+  font-size: 4vw;
+
+  border-radius: 1vw;
+  border: transparent;
+
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.ul {
+  font-size: 6vw;
+  margin: 0 auto;
+  // list-style: disk;
+  padding: 0;
+  list-style-position: inside;
+
+}
+
+li {
+
+  text-align: left;
+margin-left: 35vw;
+
+}
+
+.li__button {
+
+  text-align: left;
+  position: relative;
+  top: -1.5vw;
+  font-family: "light";
+
+}
