@@ -10,23 +10,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
   
 
-    //>  ████████████████████████████████████  FUNCTIONS
+    //>  ████████████████████████████████████  BRIGHT BACKGROUND
 
     function getBrightRandomRGB() {
         const rrr = r(86, 255);
         const ggg = r(86, 255);
         const bbb = r(86, 255);
         const rgbColor = `rgb(${rrr}, ${ggg}, ${bbb})`;
-        console.log(rgbColor);
         return rgbColor;
     }
-
-
-    //>  ████████████████████████████████████  PROGRAM
-
-
-
+    
     document.body.style.backgroundColor = getBrightRandomRGB();
+
+//_ ████████████████████████████████████  DATA STRUCTURES 
+
+
+
+//_ ████████████████████████████████████  DATA STRUCTURES 
+
+
+
+//>  ████████████████████████████████████  GENERAL PROGRAM
+
+
 
     //< ████████████████████████████████████  MISC
 
