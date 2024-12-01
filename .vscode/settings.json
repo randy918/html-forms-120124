@@ -30,6 +30,29 @@
     "peacock.color": "00A69C",
     "liveServer.settings.port": 5507,
     "cSpell.words": [
-        "ashutterstock"
+        "ashutterstock",
+        "childnodes"
+    ],
+    "favorites.resources": [
+        {
+            "filePath": "index.html",
+            "group": "Default"
+        },
+        {
+            "filePath": "-.txt",
+            "group": "Default"
+        },
+        {
+            "filePath": "css/universal.scss",
+            "group": "Default"
+        },
+        {
+            "filePath": "css/index.scss",
+            "group": "Default"
+        },
+        {
+            "filePath": "js/index.js",
+            "group": "Default"
+        }
     ]
 }

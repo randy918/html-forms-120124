@@ -1,1 +1,29 @@
-/*# sourceMappingURL=index.css.map */
+#firstName {
+  text-align: left;
+  padding-left: 2vw;
+  border-radius: 0.75vw;
+  border-color: transparent;
+  font-family: "regular";
+}
+
+#lastName {
+  text-align: left;
+  padding-left: 2vw;
+  border-radius: 0.75vw;
+  border-color: transparent;
+  font-family: "regular";
+}
+
+input::-moz-placeholder {
+  font-family: "light";
+  font-size: 3vw;
+  color: gray;
+  transform: translateY(-0.5vw); /* Adjust the value as needed */
+}
+
+input::placeholder {
+  font-family: "light";
+  font-size: 3vw;
+  color: gray;
+  transform: translateY(-0.5vw); /* Adjust the value as needed */
+}/*# sourceMappingURL=index.css.map */
