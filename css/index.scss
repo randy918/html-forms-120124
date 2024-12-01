@@ -33,6 +33,22 @@
     
     }
     
+#password{
+
+    text-align: left;
+    padding-left: 2vw;
+    border-radius: .75vw;
+    border-color: transparent;
+    font-family: 'regular';
+    
+    }
+    
+    input {
+
+margin-top: 2vw;
+
+    }
+    
     input::placeholder {
     
       font-family: "light";
@@ -41,3 +57,8 @@
       transform: translateY(-.5vw); /* Adjust the value as needed */
     
     }
+    
+    input:focus {
+        border: 2px solid #000; /* Customize the border color when focused */
+        background-color: #fff; /* Customize the background color when focused */
+      }
