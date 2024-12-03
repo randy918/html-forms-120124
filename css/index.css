@@ -4,6 +4,7 @@
   border-radius: 0.75vw;
   border-color: transparent;
   font-family: "regular";
+  width: 100%;
 }
 
 #lastName {
@@ -12,6 +13,7 @@
   border-radius: 0.75vw;
   border-color: transparent;
   font-family: "regular";
+  width: 100%;
 }
 
 #password {
@@ -20,6 +22,7 @@
   border-radius: 0.75vw;
   border-color: transparent;
   font-family: "regular";
+  width: 100%;
 }
 
 #phone {
@@ -28,6 +31,7 @@
   border-radius: 0.75vw;
   border-color: transparent;
   font-family: "regular";
+  width: 100%;
 }
 
 #decade {
@@ -102,4 +106,47 @@ form {
 
 .form__group input {
   flex: 1; /* Ensure input fields take up available space */
+}
+
+legend {
+  text-align: left;
+  font-family: "regular";
+  font-size: 4vw;
+}
+
+#tacos {
+  text-align: left;
+}
+
+.radio__group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vw; /* Space between radio button groups */
+}
+
+.radio__group input[type=radio] {
+  margin-right: 1vw; /* Space between radio button and label */
+}
+
+.radio__group label {
+  font-size: 5vw; /* Adjust as needed */
+}
+
+.checkbox__group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vw; /* Space between radio button groups */
+}
+
+.checkbox__group input[type=radio] {
+  margin-right: 1vw; /* Space between radio button and label */
+}
+
+.checkbox__group label {
+  font-size: 5vw; /* Adjust as needed */
+}
+
+#message {
+  font-family: "regular";
+  padding-top: 4vw;
 }/*# sourceMappingURL=index.css.map */
