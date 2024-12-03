@@ -42,6 +42,19 @@
   font-size: 3vw;
 }
 
+#coffee {
+  text-align: left;
+  padding-left: 2vw;
+  border-radius: 0.75vw;
+  border-color: transparent;
+  font-family: "regular";
+  width: 100%;
+}
+
+#form__coffee {
+  font-size: 3vw;
+}
+
 input {
   margin-top: 0vw;
 }

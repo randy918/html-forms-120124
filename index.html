@@ -22,23 +22,42 @@
                 <input type="text" name='firstName' id='firstName' placeholder='First Name' autocomplete="on" required
                     autofucus>
             </div>
+
             <div class="form__group">
                 <label for="lastName">Last Name:&nbsp</label>
                 <input type="text" name='lastName' id='lastName' placeholder='Last Name' autocomplete="on" required
                     autofucus>
             </div>
+
             <div class="form__group">
                 <label for="password">Password:&nbsp</label>
                 <input type="password" name='password' id='password' placeholder='Password' autocomplete="on" required
                     autofucus>
             </div>
+
             <div class="form__group">
                 <label for="phone">Phone:&nbsp</label>
-                <input type="tel" name='phone' id='phone' placeholder='5555555555' pattern='[0-9]{3}[0-9]{3}[0-9]{4}' required autofucus>
+                <input type="tel" name='phone' id='phone' placeholder='5555555555' pattern='[0-9]{3}[0-9]{3}[0-9]{4}'
+                    required autofucus>
             </div>
+
             <div class="form__group">
-                <label for="decade" id = 'form__decade'>Favorite Decade:&nbsp</label>
-                <input type="number" name='decade' id='decade' min = '1950' max = '1980' step = '10' placeholder="Decade">
+                <label for="decade" id='form__decade'>Favorite Decade:&nbsp</label>
+                <input type="number" name='decade' id='decade' min='1950' max='1980' step='10' placeholder="Decade">
+            </div>
+
+            <div class="form__group">
+                <label for="coffee" id='form__coffee'>Favorite Coffee:&nbsp</label>
+                <input type='text' name='coffee' id='coffee' list = 'coffee-list'>
+                <datalist id="coffee-list">
+                        <option value="Regular Coffee"></option>
+                        <option value="Iced Coffee"></option>
+                        <option value="Latte"></option>
+                        <option value="Cappuccino"></option>
+                        <option value="Cortado"></option>
+                        <option value="Americano"></option>
+                        <option value="other"></option>
+                </datalist>
             </div>
         </form>
 
