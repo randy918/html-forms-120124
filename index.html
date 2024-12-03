@@ -14,8 +14,31 @@
 
     <main>
 
-        <h1>Contact Me 1.0</h1>
+        <h1>Form 2 Columns 1.0</h1>
+        
+        
+        <form action="https://httpbin.org/get" method="get">
+            
+            <fieldset>
+                <legend>Contact Person</legend>
+            
+                <div class="form__group">
+                    <label for="firstName">First Name:&nbsp</label>
+                    <input type="text" name='firstName' id='firstName' placeholder='First Name' autocomplete="on"
+                        required autofocus>
+                </div>
 
+                <div class="form__group">
+                    <label for="lastName">Last Name:&nbsp</label>
+                    <input type="text" name='lastName' id='lastName' placeholder='Last Name' autocomplete="on" required
+                        autofocus>
+                </div>
+            
+            </fieldset>
+
+
+        </form>
+<br>
         <form action="https://httpbin.org/get" method="get">
 
             <fieldset>
@@ -25,25 +48,25 @@
                 <div class="form__group">
                     <label for="firstName">First Name:&nbsp</label>
                     <input type="text" name='firstName' id='firstName' placeholder='First Name' autocomplete="on"
-                        required autofucus>
+                        required autofocus>
                 </div>
 
                 <div class="form__group">
                     <label for="lastName">Last Name:&nbsp</label>
                     <input type="text" name='lastName' id='lastName' placeholder='Last Name' autocomplete="on" required
-                        autofucus>
+                        autofocus>
                 </div>
 
                 <div class="form__group">
                     <label for="password">Password:&nbsp</label>
                     <input type="password" name='password' id='password' placeholder='Password' autocomplete="on"
-                        required autofucus>
+                        required autofocus>
                 </div>
 
                 <div class="form__group">
                     <label for="phone">Phone:&nbsp</label>
                     <input type="tel" name='phone' id='phone' placeholder='5555555555'
-                        pattern='[0-9]{3}[0-9]{3}[0-9]{4}' required autofucus>
+                        pattern='[0-9]{3}[0-9]{3}[0-9]{4}' required autofocus>
                 </div>
 
                 <div class="form__group">
@@ -65,7 +88,7 @@
                     </datalist>
                 </div>
             </fieldset>
-            
+
             <br>
             <fieldset>
 
@@ -85,7 +108,7 @@
                     <label for="other">Other</label>
                 </div>
             </fieldset>
-            
+
             <br>
             <fieldset>
 
@@ -116,7 +139,7 @@
             <fieldset>
 
                 <legend>Send Note</legend>
-                <label for = 'message'>Your Message:</label>
+                <label for='message'>Your Message:</label>
                 <br>
                 <textarea name='message' id='message' cols='30' rows='6' placeholder='Type Your Message'></textarea>
                 <br><br>
