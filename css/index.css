@@ -30,6 +30,18 @@
   font-family: "regular";
 }
 
+#decade {
+  text-align: left;
+  padding-left: 2vw;
+  border-radius: 0.75vw;
+  border-color: transparent;
+  font-family: "regular";
+}
+
+#form__decade {
+  font-size: 3vw;
+}
+
 input {
   margin-top: 0vw;
 }
@@ -66,6 +78,7 @@ form {
   display: flex;
   height: 8vw;
   align-items: center;
+  line-height: 1;
 }
 
 .form__group label {
