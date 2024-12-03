@@ -13,52 +13,88 @@
 //>  ████████████████████████████████████  5
 
 
-#firstName{
+#firstName {
 
     text-align: left;
     padding-left: 2vw;
     border-radius: .75vw;
     border-color: transparent;
     font-family: 'regular';
-    
-    }
-    
-#lastName{
+
+}
+
+#lastName {
 
     text-align: left;
     padding-left: 2vw;
     border-radius: .75vw;
     border-color: transparent;
     font-family: 'regular';
-    
-    }
-    
-#password{
+
+}
+
+#password {
 
     text-align: left;
     padding-left: 2vw;
     border-radius: .75vw;
     border-color: transparent;
     font-family: 'regular';
-    
-    }
-    
-    input {
 
-margin-top: 2vw;
+}
 
-    }
-    
-    input::placeholder {
-    
-      font-family: "light";
-      font-size: 3vw;
-      color: gray;
-      transform: translateY(-.5vw); /* Adjust the value as needed */
-    
-    }
-    
-    input:focus {
-        border: 2px solid #000; /* Customize the border color when focused */
-        background-color: #fff; /* Customize the background color when focused */
-      }
+#phone {
+
+    text-align: left;
+    padding-left: 2vw;
+    border-radius: .75vw;
+    border-color: transparent;
+    font-family: 'regular';
+
+}
+
+input {
+
+    margin-top: 0vw;
+
+}
+
+input::placeholder {
+
+    font-family: "light";
+    font-size: 3vw;
+    color: gray;
+    transform: translateY(-.5vw);
+    /* Adjust the value as needed */
+
+}
+
+input:focus {
+    border: 2px solid #000;
+    /* Customize the border color when focused */
+    background-color: #fff;
+    /* Customize the background color when focused */
+}
+
+form {
+
+width: 90vw;
+margin: 0 auto;
+
+}
+
+.form__group {
+    display: flex;
+    height: 8vw;
+    align-items: center;
+}
+
+.form__group label {
+    flex: 0 0 30vw; /* Adjust the width of the label */
+    text-align: right; /* Align text to the right */
+    margin-right: 1vw; /* Space between label and input */
+}
+
+.form__group input {
+    flex: 1; /* Ensure input fields take up available space */
+}

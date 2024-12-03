@@ -17,16 +17,26 @@
         <h1>Contact Me 1.0</h1>
 
         <form action="https://httpbin.org/get" method="get">
-
-            <label for="firstName">First Name:&nbsp</label>
-                <input type="text" name='firstName' id='firstName' placeholder='First Name' autocomplete="on" required autofucus>
-            
-            <label for="lastName"><br>Last Name:&nbsp</label>
-                <input type="text" name='lastName' id='lastName' placeholder='Last Name' autocomplete="on" required>
-            
-            <label for="password"><br>Password:&nbsp</label>
-                <input type="password" name='password' id='password' placeholder='Password' required>
-            
+            <div class="form__group">
+                <label for="firstName">First Name:&nbsp</label>
+                <input type="text" name='firstName' id='firstName' placeholder='First Name' autocomplete="on" required
+                    autofucus>
+            </div>
+            <div class="form__group">
+                <label for="lastName">Last Name:&nbsp</label>
+                <input type="text" name='lastName' id='lastName' placeholder='Last Name' autocomplete="on" required
+                    autofucus>
+            </div>
+            <div class="form__group">
+                <label for="password">Password:&nbsp</label>
+                <input type="password" name='password' id='password' placeholder='Password' autocomplete="on" required
+                    autofucus>
+            </div>
+            <div class="form__group">
+                <label for="phone">Phone:&nbsp</label>
+                <input type="tel" name='phone' id='phone' placeholder='5555555555' pattern='[0-9]{3}[0-9]{3}[0-9]{4}' required
+                    autofucus>
+            </div>
         </form>
 
     </main>
