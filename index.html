@@ -15,30 +15,101 @@
     <main>
 
         <h1>Form 2 Columns 1.0</h1>
-        
-        
+
+
         <form action="https://httpbin.org/get" method="get">
-            
+
             <fieldset>
                 <legend>Contact Person</legend>
-            
-                <div class="form__group">
-                    <label for="firstName">First Name:&nbsp</label>
-                    <input type="text" name='firstName' id='firstName' placeholder='First Name' autocomplete="on"
-                        required autofocus>
+
+                <div class="form2__group" style="margin-bottom: 2.5vw">
+                    <div>
+                        <label for="firstName2">First Name:&nbsp</label>
+                        <input type="text" name='firstName2' id='firstName2' autocomplete="on" placeholder='Required'
+                            required autofocus>
+                    </div>
+                    <div>
+                        <label for="lastName2">Last Name:&nbsp</label>
+                        <input type="text" name='lastName2' id='lastName2' autocomplete="on" placeholder='Required'
+                            required autofocus>
+                    </div>
                 </div>
 
-                <div class="form__group">
-                    <label for="lastName">Last Name:&nbsp</label>
-                    <input type="text" name='lastName' id='lastName' placeholder='Last Name' autocomplete="on" required
-                        autofocus>
+                <div class="form2__group" style="margin-bottom: 2.5vw">
+                    <div>
+                        <label for="phone2">Office Phone:&nbsp</label>
+                        <input type="tel" name='phone2' id='phone2' autocomplete="on" placeholder='Required'
+                            pattern='[0-9]{3}[0-9]{3}[0-9]{4}' required autofocus>
+                    </div>
+                    <div>
+                        <label for="lastName2">Email:&nbsp</label>
+                        <input type="email" name='email' id='email' autocomplete="on" placeholder='Required' required
+                            autofocus>
+                    </div>
                 </div>
-            
+
+                <div class="form2__group">
+                    <div>
+                        <label for="cell">Cell Phone:&nbsp</label>
+                        <input type="tel" name='cell' id='cell' autocomplete="on" pattern='[0-9]{3}[0-9]{3}[0-9]{4}'
+                            autofocus>
+                    </div>
+                    <div>
+                        <label for="fax">Fax:&nbsp</label>
+                        <input type="tel" name='fax' id='fax' autocomplete="on" autofocus>
+                    </div>
+                </div>
+            </fieldset>
+            <div style="height: 2vw;"></div>
+            <fieldset>
+                <legend>Sponsor/Host Informtion</legend>
+
+                <div class="form2__group" style="margin-bottom: 2.5vw">
+                    <div>
+                        <label for="sponsorHost">Sponsor/Host Information:&nbsp</label>
+                        <input type="text" name='spornsorHost' id='sponsorHost' autocomplete="on" autofocus>
+                    </div>
+                    <div>
+                        <label for="churchOrg">Church/Org. Name:&nbsp</label>
+                        <input type="text" name='churchOrg' id='churchOrg' autocomplete="on" autofocus>
+                    </div>
+                </div>
+
+                <div class="form2__group" style="margin-bottom: 2.5vw">
+                    <div>
+                        <label for="pastorLeader">Pastor/Leader Name:&nbsp</label>
+                        <input type="text" name='pastorLeader' id='pastorLeader' autocomplete="on" autofocus>
+
+                    </div>
+                </div>
+                <div style="height: 2vw;"></div>
+
+                <div class="form2__group" style="margin-bottom: 2.5vw">
+                    <div>
+                        <label for="streetAddress">Street address:&nbsp</label>
+                        <input type="text" name='streetAddress' id='streetAddress' autocomplete="on" autofocus>
+                    </div>
+                </div>
+                
+                <div class="form3__group" style="margin-bottom: 2.5vw">
+                    <div>
+                        <label for="city1">City:&nbsp</label>
+                        <input type="text" name='scity1' id='city1' autocomplete="on" autofocus>
+                    </div>
+                    <div>
+                        <label for="state1">State:&nbsp</label>
+                        <input type="text" name='state1' id='state1' autocomplete="on" autofocus>
+                    </div>
+                    <div>
+                        <label for="zip1">Zip:&nbsp</label>
+                        <input type="text" name='zip1' id='zip1' autocomplete="on" autofocus>
+                    </div>
+                </div>
+                
             </fieldset>
 
-
         </form>
-<br>
+        <br>
         <form action="https://httpbin.org/get" method="get">
 
             <fieldset>

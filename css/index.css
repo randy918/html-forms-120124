@@ -65,17 +65,17 @@ input {
 
 input::-moz-placeholder {
   font-family: "light";
-  font-size: 3vw;
+  font-size: 2vw;
   color: gray;
-  transform: translateY(-0.5vw);
+  transform: translateY(-0.25vw);
   /* Adjust the value as needed */
 }
 
 input::placeholder {
   font-family: "light";
-  font-size: 3vw;
+  font-size: 2vw;
   color: gray;
-  transform: translateY(-0.5vw);
+  transform: translateY(-0.25vw);
   /* Adjust the value as needed */
 }
 
@@ -99,15 +99,86 @@ form {
 }
 
 .form__group label {
-  flex: 0 0 30vw; /* Adjust the width of the label */
-  text-align: right; /* Align text to the right */
-  margin-right: 1vw; /* Space between label and input */
+  flex: 0 0 30vw;
+  /* Adjust the width of the label */
+  text-align: right;
+  /* Align text to the right */
+  margin-right: 1vw;
+  /* Space between label and input */
 }
 
 .form__group input {
-  flex: 1; /* Ensure input fields take up available space */
+  flex: 1;
+  /* Ensure input fields take up available space */
 }
 
+.form2__group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two equal columns */
+  gap: 2vw;
+  /* Space between columns */
+  /* Space between form groups */
+}
+
+.form2__group label {
+  margin-bottom: 0.2vw;
+  /* Reduce space between label and input */
+  font-size: 2vw;
+  line-height: 0.25;
+  font-family: "regular";
+  text-align: left;
+  /* Align text to the left */
+  display: block;
+  /* Ensure label is a block element */
+}
+
+.form2__group input {
+  padding: 0.5vw;
+  /* Adjust padding as needed */
+  font-size: 3vw;
+  /* Adjust as needed */
+  border-radius: 0.75vw;
+  border-color: transparent;
+  font-family: "regular";
+  width: 100%;
+}
+
+.form3__group {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2vw;
+  display: inline-block;
+}
+
+.form3__group label {
+  margin-bottom: 0.2vw;
+  font-size: 2vw;
+  line-height: 0.25;
+  font-family: "regular";
+  text-align: left;
+  display: block;
+}
+
+.form3__group label {
+  margin-bottom: 0.2vw;
+  font-size: 2vw;
+  font-family: "regular";
+  text-align: left;
+  display: block;
+}
+
+.form3__group input {
+  padding: 0.5vw;
+  font-size: 3vw;
+  border-radius: 0.75vw;
+  border-color: transparent;
+  font-family: "regular";
+  width: 100%;
+  margin: 0;
+}
+
+/* Ensure no additional margin */
 legend {
   text-align: left;
   font-family: "regular";
@@ -118,32 +189,58 @@ legend {
   text-align: left;
 }
 
+#churchOrg {
+  width: 39vw;
+}
+
+#sponsorHost {
+  width: 39vw;
+}
+
+#city1 {
+  width: 45vw;
+}
+
+#state1 {
+  width: 18vw;
+}
+
+#zip1 {
+  width: 18vw;
+}
+
 .radio__group {
   display: flex;
   align-items: center;
-  margin-bottom: 1vw; /* Space between radio button groups */
+  margin-bottom: 1vw;
+  /* Space between radio button groups */
 }
 
 .radio__group input[type=radio] {
-  margin-right: 1vw; /* Space between radio button and label */
+  margin-right: 1vw;
+  /* Space between radio button and label */
 }
 
 .radio__group label {
-  font-size: 5vw; /* Adjust as needed */
+  font-size: 5vw;
+  /* Adjust as needed */
 }
 
 .checkbox__group {
   display: flex;
   align-items: center;
-  margin-bottom: 1vw; /* Space between radio button groups */
+  margin-bottom: 1vw;
+  /* Space between radio button groups */
 }
 
 .checkbox__group input[type=radio] {
-  margin-right: 1vw; /* Space between radio button and label */
+  margin-right: 1vw;
+  /* Space between radio button and label */
 }
 
 .checkbox__group label {
-  font-size: 5vw; /* Adjust as needed */
+  font-size: 5vw;
+  /* Adjust as needed */
 }
 
 #message {
